@@ -1,7 +1,7 @@
 # Group Fair Rated Preference Aggregation: Ties are (Mostly) All You Need
 
 
-Code and data for "Group Fair Rated Preference Aggregation: Ties are (Mostly) All You Need". To reproduce
+Code and data for "Group Fair Rated Preference Aggregation: Ties are (Mostly) All You Need" published at FAccT'25. To reproduce
 the experiments run `electronics.py` (electronics data), `modcloth.py` (modcloth data), `hranalytics.py` (hr data),
 `xwines.py` (xwines data), `tie_size_analysis.py` (tiesize data), `tie_count_analysis.py` (tiecount data). The ablation results are included in each dataset's corresponding script. Next, to produce the plots
 used in the paper run the script `Plotting_Script.R` in the `results/` folder. To reproduce the Appendix E results, in the `comparedmethods/` folder uncomment the section stating "to process the random break method" in the `EPIRA.py` and `epsilon_greedy.py` scripts.
